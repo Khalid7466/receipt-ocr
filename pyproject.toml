@@ -1,0 +1,30 @@
+[project]
+name = "receipt-ocr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.4.1",
+    "easyocr>=1.7.2",
+    "fastapi>=0.124.4",
+    "jiwer>=4.0.0",
+    "numpy",
+    "opencv-python",
+    "pandas>=2.3.3",
+    "python-multipart>=0.0.21",
+    "requests>=2.32.5",
+    "scikit-image",
+    "scikit-learn>=1.8.0",
+    "spacy>=3.8.11",
+    "streamlit>=1.52.1",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "ultralytics>=8.3.239",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
