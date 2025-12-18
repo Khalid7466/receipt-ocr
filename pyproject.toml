@@ -8,6 +8,7 @@ dependencies = [
     "datasets>=4.4.1",
     "easyocr>=1.7.2",
     "fastapi>=0.124.4",
+    "ipykernel>=7.1.0",
     "jiwer>=4.0.0",
     "numpy",
     "opencv-python",
